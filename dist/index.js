@@ -18,7 +18,7 @@ export default {
       }
     },
     root: {
-      type: HTMLElement,
+      type: typeof HTMLElement !== 'undefined' ? HTMLElement : Object,
       required: false,
       default: function _default() {
         return null;
