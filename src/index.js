@@ -6,7 +6,7 @@ const warn = (msg) => {
   }
 }
 
-export default {
+module.exports = {
   name: 'intersect',
   abstract: true,
   props: {
