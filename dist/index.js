@@ -1,4 +1,4 @@
-import Vue from 'vue';
+var Vue = require('vue');
 
 var warn = function warn(msg) {
   if (!Vue.config.silent) {
